@@ -460,9 +460,9 @@
 #define ENABLE_DRIVER_HLW8112SPI				1
 #define ENABLE_DRIVER_HTTPBUTTONS				1
 #define ENABLE_SEND_POSTANDGET				1
+#define ENABLE_HA_DISCOVERY				1
 
 // Undefine unused drivers & protocols to free contiguous heap for mbedTLS
-#undef ENABLE_HA_DISCOVERY
 #undef ENABLE_TASMOTADEVICEGROUPS
 #undef ENABLE_TASMOTA_JSON
 #undef ENABLE_ADVANCED_CHANNELTYPES_DISCOVERY
